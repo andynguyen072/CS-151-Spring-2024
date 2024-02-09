@@ -34,7 +34,14 @@ public class classExercise {
         System.out.println(student1.major);
 
         // Exercise 2
-        CalculateSum(0, 1, 2, 3);
-        CalculateSum(0, 1.0, 2, 3);
+        CalculateSum(10, 1, 2, 3);
+        CalculateSum(10, 1.0, 2, 3);
+
+        // Exercise 3
+        /*
+         * Create a class Shape with attributes length and widge
+         * 
+         * Create class rectangle which extend class Shape with additional attribute
+         */
     }
 }
