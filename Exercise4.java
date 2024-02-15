@@ -11,6 +11,10 @@ class Figure{
         System.out.println("Inside Figure");
         return 0;
     }
+
+    // final void checkHere(){
+    //     System.out.println("Test");
+    // }
 }
 
 class Rectangle extends Figure{
@@ -22,6 +26,10 @@ class Rectangle extends Figure{
         System.out.println("Inside Rectangle");
         return dim1 * dim2;
     }
+
+    // void checkHere(int x){
+    //     System.out.println("Test");
+    // }
 }
 
 class Triangle extends Figure{
@@ -37,15 +45,17 @@ class Triangle extends Figure{
 
 public class Exercise4 {
     public static void main(String[] args){
-        Figure myFigure = new Figure(1, 8);
+        // Figure myFigure = new Figure(1, 8);
         Rectangle myRectangle = new Rectangle(7, 4);
-        Triangle myTriangle = new Triangle(5, 4);
+        // Triangle myTriangle = new Triangle(5, 4);
 
-        Figure theRectangle = myRectangle;
-        System.out.println(theRectangle.findArea());
-        
-        Figure theTriangle = myTriangle;
-        System.out.println(theTriangle.findArea());
+        // Figure theRectangle = myRectangle;
+        // System.out.println(theRectangle.findArea());
+
+        // Figure theTriangle = myTriangle;
+        // System.out.println(theTriangle.findArea());
         //System.out.println(myTriangle.findArea());
+
+        myRectangle.checkHere();
     }
 }
